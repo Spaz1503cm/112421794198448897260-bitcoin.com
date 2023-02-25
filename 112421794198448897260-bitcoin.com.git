@@ -1,0 +1,58 @@
+https://github.com/Spaz1503cm/112421794198448897260-bitcoin.com/blob/7a65d2940244379ea2ae2a77831f9d830d3cb89c/.github/workflows/jekyll-gh-pages.yml
+{
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "my_org/my_repo": {
+          "permissions": {
+            "issues": "write"
+          }
+        }
+      }
+    }
+  }
+}
+Note: You can only reference repositories that belong to the same personal account or organization as the repository you are currently working in.
+
+You can grant as many or as few of the following permissions for each repository listed:
+
+actions - read / write
+checks - read / write
+contents - read / write
+deployments - read / write
+discussions - read / write
+issues - read / write
+packages - read
+pages - read / write
+pull_requests - read / write
+repository_projects - read / write
+statuses - read / write
+workflows - write
+To set a permission for a repository in an organization, you must explicitly add that repository name in the repositories object.
+
+{
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "my_org/my_repo": {
+          "permissions": {
+            "issues": "write"
+          }
+        }
+      }
+    }
+  }
+}
+To set all permissions for a given repository, use "permissions": "read-all" or "permissions": "write-all" in the repository object.
+
+{
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "my_org/my_repo": {
+          "permissions": "write-all"
+        }
+      }
+    }
+  }
+}http://77.37.121.175/lo=7shl39Xfz2f.hjfZ3sYi2/jv372j23y-H59/DEanDV82WQd3kc%7C0BEF8MmM7DVqq%7Ca/37hOzOhYh3DEanDHGw3jysls
